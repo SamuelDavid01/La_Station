@@ -17,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
 
-font-family: 'Dosis', sans-serif;
+
 font-family: 'Roboto', sans-serif;
 
     font-size: 16px;
@@ -102,5 +102,132 @@ nav a:hover{
 
 /*Hero*/
 .hero{
-    background-image: url("../images/");
+    background-image: url("../images/montagnes-alpes.jpg");
+    background-size: cover;
+
+    margin: auto;
+
+    height:450px;
 }
+
+.herocadre{
+    /*positionnement*/
+    margin: auto;
+    position: relative;
+    top: 145px;
+
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /*boite*/
+    background-color: rgba(0,0,0,0.7);
+
+    width: 455px;
+    border-radius: 10px;
+    paddin: 20px;
+
+}
+
+.herocadre h2{
+    color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 36px;
+    margin: 20px;
+}
+.herocadre p {
+    color: #2FCB48;
+
+}
+
+/*articles*/
+.contenu{
+    background-color: #E3E4E4;
+}
+
+.contenu .wrapper{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+article{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 320px;
+    height: 711px;
+
+    background-color: #FFFFFF;
+
+    padding-left: 10px;
+
+   border-bottom: #0E5EA1 solid 5px;
+
+
+}
+
+article img{
+    margin-top: 10px;
+
+
+}
+article h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+
+}
+article p {
+    width: 301px;
+}
+.voirplus {
+
+    /*mise en forme bouton*/
+    color: #000000;
+    font-size: 14px;
+    background-color:#B7B7B7;
+    padding: 8px 45px;
+    border-radius: 5px;
+m
+
+
+}
+
+.voirplus:hover{
+    color: #FFFFFF;
+    background-color: #0E5EA1;
+
+}
+
+/*image fond bas*/
+
+.imageConteneur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+.imagefondbas{
+    height: 150px;
+    width: 1000px;
+
+}
+
+/*footer*/
+
+footer{
+    height: 72px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
