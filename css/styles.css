@@ -158,6 +158,7 @@ nav a:hover{
 
 }
 article{
+    padding-top: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 320px;
@@ -165,26 +166,34 @@ article{
 
     background-color: #FFFFFF;
 
-    padding-left: 10px;
+
 
    border-bottom: #0E5EA1 solid 5px;
+    display: flex;
+    flex-direction: column;
 
 
 }
 
 article img{
-    margin-top: 10px;
+    margin-bottom: auto;
+    align-self: center;
 
 
 }
 article h3{
+
     font-family: 'Dosis', sans-serif;
     font-size: 24px;
+margin-left: 10px;
+
 
 }
 article p {
     width: 301px;
+    align-self: center;
 }
+
 .voirplus {
 
     /*mise en forme bouton*/
@@ -193,7 +202,11 @@ article p {
     background-color:#B7B7B7;
     padding: 8px 45px;
     border-radius: 5px;
-m
+align-self: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+
+
 
 
 }
